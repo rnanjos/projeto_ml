@@ -1,6 +1,5 @@
 const baseUrl = "http://localhost:3333/api/"
 
-onst baseUrl = "http://localhost:3333/api/"
 
 const load = document.getElementById("load");
 const containerId = document.getElementById("container-products");	
