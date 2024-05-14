@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Mercado Livre</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="./img/logo.png" alt="logo" />
+    </div>
+    <input class="search-inpunt" type="text" placeholder="Buscar.." />
+    <button class="btn-search" onclick="searchProducts();">
+      <img src="./img/search.png" alt="search" />
+    </button>
+  </header>
+  <div class="container">
+    <div class="load">
+      <img id="load" src="./img/load.gif">
+    </div>
+    <span id="category" class="category-tag"></span>
+
+    <ul id="container-products" class="list-container">
+      <li id="list" class="item-list">
+        <div class="card" id="card">
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

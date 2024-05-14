@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Mercado Livre</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a class="logo" href="index.html">
+        <img src="./img/logo.png" alt="logo" />
+      </a>
+      <input class="search-inpunt" type="text" placeholder="Buscar.." />
+      <button class="btn-search">
+        <img src="./img/search.png" alt="search" />
+      </button>
+    </header>
+
+    <div class="container">
+      <span id="category-details"></span>
+      <div class="card_detalhes">
+        <div class="card_detalhes-top">
+          <img
+            id="img-details"
+            src="./img/search.png"
+            alt="Imagem produto"
+            class="img-details"
+          />
+          <div class="card-info-detalhes">
+            <p
+              class="card_info-detalhes-produto-quantidade"
+              id="condition-details"
+            ></p>
+            <p class="card_info-detalhes-produto-name" id="title-details"></p>
+            <p class="card_info-detalhes-price" id="price-details"></p>
+            <button class="botao-comprar">Comprar</button>
+          </div>
+        </div>
+
+        <div class="card-detalhes-bottom">
+          <h2>Descrição do produto</h2>
+          <p id="description-details"></p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
